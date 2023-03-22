@@ -1,0 +1,160 @@
+  body{
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    background-color: black;
+    padding: 10px 4%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+.logo img{
+    height: 20px;
+}
+
+.menu{
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+
+.jumbotron{
+    background-image: url(jumbotron.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
+.container{
+    padding: 150px 310px 150px 310px;
+}
+
+.text {
+    margin-top: 150px;
+}
+
+.container .text h1{
+    font-size: 40px;
+    color: white;
+}
+
+.container .text h3{
+    font-size: 25px;
+    color: #F2AA1E;
+}
+
+.box-button{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+
+.button a{
+    background-color: white;
+    padding: 7px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+}
+
+.about-me{
+    background-color: #C6C7BF;
+}
+
+.about-me .container1{
+    padding: 100px;
+    display: grid;
+    grid-template-areas: "box1 box2";
+    grid-template-columns: 0.3fr 0.7fr ;
+}
+
+.container1 .box1{
+    grid-area: box1;
+}
+
+.box1 img{
+    width: 300px;
+}
+
+.box2{
+    margin-top: 90px;
+}
+
+.box2 h1{
+    font-size: 30px;
+    color: black;
+}
+
+.box2 h2{
+
+    font-size: 25px;
+    color: #F2AA1E;
+}
+ 
+.box2 p{
+    padding: 10px 0px;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.box-table{
+    color: #C6C7BF;
+    font-weight: 100;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: end;
+    background-color:#C6C7BF;
+    padding-right: 20px;
+}
+
+.sosmed{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+.sosmed i{
+    font-size: 40px;
+}
+
+.sosmed .github{
+    color: #3E75C3 ;
+}
+
+.sosmed .spotify{
+    color:#00DA5A;
+}
+
+.sosmed .instagram{
+    color: #c32aa3;
+}
+
+.sosmed .whatsapp{
+    color: #67C15E;
+}
+
+.sosmed .twitter{
+    color:#00AAEC;
+}
+
+.sosmed p{
+    font-size: 15px;
+    color: white;
+}
